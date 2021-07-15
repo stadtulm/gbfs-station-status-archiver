@@ -13,6 +13,9 @@ the result file containes the following columns:
 
 `station_name`, `lat`, `lon` are saved, because sometimes operators change this, without changing the `station_id`
 
+
 ## Usage
 
 `python3 scrape.py --sqlite <sqlite filename> --gbfsurl <URL of gbfs.json> --interval <seconds between reqeusts>`
+
+You might install requests before first use: `pip3 install -r requirements.txt`
